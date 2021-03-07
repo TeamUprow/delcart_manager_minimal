@@ -1,0 +1,34 @@
+name: delcart_manager
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.1.0+7
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+module:
+  androidX: true
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  flutter_native_splash: 0.3.2
+
+# The following section is specific to Flutter.
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/img/
+
+flutter_intl:
+  enabled: true
+
+flutter_native_splash:
+  color: "#ff0000"
